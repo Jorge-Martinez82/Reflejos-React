@@ -1,0 +1,236 @@
+/* login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.title {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.small {
+  font-size: 12px;
+  color: #888;
+  display: block;
+  margin-top: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"],
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.form-group.flex {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.flex label {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+#must {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.error-message {
+  color: #d9534f; 
+  background-color: #f2dede; 
+  border: 1px solid #ebccd1; 
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+/*Específico del header*/
+
+.header-container  {
+  background-color: #333;
+  color: #fff; 
+  display: flex;
+  text-align: center;
+  height: 100px;
+}
+
+
+
+.header {
+  margin: 0 auto;
+
+}
+
+.title {
+  margin: 5px;
+}
+
+.nav {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav button{
+  width: 100px;
+  margin: 5px;
+  border:solid 1px #ccc;
+  padding: 5px;
+}
+
+
+/* Estilos específicos del Footer */
+
+.footer-container{
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: x-small;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer p {
+  margin: 0; 
+}
+
+
+/* De atletas */
+
+.contAthleta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.botAt {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.botAt:hover {
+  background-color: #0056b3;
+}
+
+.result-container {
+  margin-top: 10px;
+}
+
+.result-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.result-list {
+  list-style: none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 10px;
+}
+
+.result-item span {
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
